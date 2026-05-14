@@ -59,4 +59,3 @@ Thumbs.db              # Windows 缩略图
 desktop.ini
 *.swp                  # Vim 临时文件
 .nfs* # 某些网络文件系统产生的临时文件
-.aider*
