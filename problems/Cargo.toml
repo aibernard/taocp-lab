@@ -1,0 +1,9 @@
+[package]
+name = "problems"
+description = "算法训练题库：每道题同时提供暴力解与最优解，供 lab 做差分对决"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+# 刻意保持零依赖：训练支架不应该被依赖解析卡住。

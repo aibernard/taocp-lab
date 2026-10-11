@@ -1,0 +1,13 @@
+[package]
+name = "lab"
+description = "算法实验室：差分对决、爆炸曲线、ASCII 降维、训练台账与间隔重复"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "lab"
+path = "src/main.rs"
+
+[dependencies]
+problems = { path = "../problems" }

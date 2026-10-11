@@ -1,0 +1,12 @@
+[workspace]
+resolver = "3"
+members = ["lab", "problems"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+# 压测需要真实的优化级别，但保留符号便于火焰图/调试。
+[profile.release]
+debug = true

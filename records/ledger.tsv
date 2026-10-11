@@ -1,0 +1,4 @@
+# taocp-lab 训练台账 · 由 `lab run` 自动追加
+# 手工改坏会让复习调度错乱，请只改 grade 列（第 10 列）
+# day|ts|problem|topic|verdict|cases|passed|brute_ns|fast_ns|grade|interval|due_day
+20737|1791722658|p0088|双指针|PASS|65|65|197751|213916|4|1|20738
